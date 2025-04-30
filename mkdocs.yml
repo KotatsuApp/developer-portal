@@ -1,5 +1,5 @@
 site_name: Kotatsu Developer Portal
-site_url: https://dev.kotatsu.app
+site_url: https://ztimms73.github.io/kdp
 plugins:
   - glightbox
   - search
