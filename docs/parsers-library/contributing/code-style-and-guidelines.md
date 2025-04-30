@@ -27,14 +27,14 @@ org.koitharu.kotatsu.parsers
 ### 1.2 Parser Class Naming
 Parser classes should follow a consistent naming pattern:
 
-* Use the site name followed by "Parser" (e.g., `MangaDexParser`, `ComickFunParser`)
+* Class names should be `internal`
 * For sites based on a common engine, extend the appropriate base parser (e.g., `MadaraParser`, `WpComicsParser`)
 
 ## 2. Code Conventions
 ### 2.1 Parser Class Structure
 Each parser must:
 
-1. Be annotated with @MangaSourceParser specifying:
+1. Be annotated with `@MangaSourceParser` specifying:
     * Source identifier (enum constant name)
     * Display name
     * Optional language code
@@ -114,6 +114,7 @@ manga.id = generateUid(mangaSlug)
 
 ## 6. Error Handling
 ### 6.1 Error Messages
+* Do not use generic exceptions e.g. `Exception`
 * Use constants from `ErrorMessages` for common error situations
 * Provide meaningful error messages that help diagnose the issue
 * Use assertions (`assert`) to verify optional fields during development
