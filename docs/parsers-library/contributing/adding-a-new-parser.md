@@ -1,6 +1,6 @@
 # Adding a New Parser
 
-This guide explains how to add a new manga source parser to the Kotatsu parsers library. It covers the process from evaluating the manga website to implementing and testing a parser. For information about parser architecture, see [Core Architecture](core-architecture/index.md) and for code style conventions, see [Code Style and Guidelines](code-style-and-guidelines.md).
+This guide explains how to add a new manga source parser to the Kotatsu parsers library. It covers the process from evaluating the manga website to implementing and testing a parser. For information about parser architecture, see [Core Architecture](../core-architecture/index.md) and for code style conventions, see [Code Style and Guidelines](code-style-and-guidelines.md).
 
 ## Understanding the Parser Framework
 Before adding a new parser, it's important to understand the basic architecture of the parsing system.
