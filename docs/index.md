@@ -12,4 +12,4 @@ Kotatsu is an open-source manga reader application for Android that allows users
 
   [Client app]: client-app/index.md
   [Synchronization server]: synchronization-server/index.md
-  [CLI downloader]: setting-up-the-header.md
+  [CLI downloader]: command-line-interface/index.md
