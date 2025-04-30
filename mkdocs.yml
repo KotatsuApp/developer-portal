@@ -30,7 +30,7 @@ theme:
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: grey
+      primary: blue
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
@@ -47,6 +47,13 @@ repo_name: KotatsuApp/Kotatsu
 copyright: Copyright &copy; 2020 - 2025 Kotatsu Developers
 markdown_extensions:
   - tables
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
