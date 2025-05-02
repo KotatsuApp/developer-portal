@@ -3,7 +3,7 @@
 ## Overview
 The Kotatsu Parsers library includes a set of utility functions and helper classes that provide common functionality used across different parsers. These utilities simplify operations such as parsing HTTP responses, manipulating URLs, working with JSON data, and handling coroutines. This page documents these utilities, which serve as the foundation for the parser implementations.
 
-For information about parser implementations that use these utilities, see Base Parser Implementations and Site-Specific Parsers. For details about network-specific utilities, see Network Utilities.
+For information about parser implementations that use these utilities, see Base Parser Implementations and Site-Specific Parsers. For details about network-specific utilities, see [Network](network.md).
 
 ## Parsing Utilities
 The parsing utilities provide functions for parsing HTTP responses and manipulating URLs, which are essential operations for manga parsers that need to extract data from web pages.
