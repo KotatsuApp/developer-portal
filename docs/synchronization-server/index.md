@@ -1,4 +1,4 @@
-# Synchronization server
+# Overview
 
 This document provides a comprehensive introduction to the Kotatsu Sync Server, an open-source synchronization server for the 
 Kotatsu app. The server enables users to synchronize their favorites, reading history, and categories across multiple devices, providing a seamless manga reading experience.
